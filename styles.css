@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  user-select: none;
+  -webkit-app-region: drag;
+  background: url("assets/outer-frame-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  padding: 0.4rem;
+  align-items: center;
+  margin-top: 0.25rem;
+  margin-bottom: 0.5rem;
+  
+
+  border-radius: 6.25rem;
+  border: 1px solid #C079FF;
+  background: rgba(210, 164, 255, 0.40 );
+
+  color: white;
+
+  /* title */
+  font-family: "Pixelify Sans";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#day{
+  color: white;
+  text-align: center;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: #b58cd9;
+  font-family: Pixeboy;
+  font-size: 8rem;
+  font-weight: 800;
+  line-height: 5rem;
+  letter-spacing: 0.45rem;
+}
+.app {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  width: 13.375rem;
+  padding: 1rem 1.0625rem; 
+  
+}
+
+button,
+input,
+textarea,
+select {
+  -webkit-app-region: no-drag;
+  cursor: pointer;
+}
